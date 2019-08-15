@@ -1,0 +1,13 @@
+/* 改变主题色变量 */
+// $--color-primary: teal;
+$--color-primary: "#12BD7B";
+$--color-text-primary: "#2B3D51";
+$--color-text-regular: "#2B3D51";
+$--border-color-base: "#12BD7B";
+$--border-color-light: "#12BD7B";
+$--background-color-base: "#F8F9FA";
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

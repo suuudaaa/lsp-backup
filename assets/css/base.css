@@ -1,0 +1,130 @@
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+  margin: 0;
+  padding: 0;
+}
+/* 怪异盒模型 */
+*{box-sizing: border-box;}
+html, body {
+  min-height: 100%;
+  min-width: 50%;
+}
+
+body {
+  font-family: "Microsoft YaHei";
+  font-size:14px;
+  color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  display:inline-block;
+  border:none;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  overflow:hidden;
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center
+}
+
+.tr {
+  text-align: right;
+}
+
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inline{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+/*定义两端按钮的样式，display:none可设置为不显示，也可以添加背景图片，颜色*/
+::-webkit-scrollbar-button {
+  display: none;
+  background: #EEF1F6
+}
+/*外层轨道，定义滚动条的轨道颜色、内阴影及圆角。display:none可设置为不显示，也可以添加背景图片，颜色*/
+::-webkit-scrollbar-track {
+  background: #EEF1F6;
+  border-radius: 5px;
+  /*box-shadow: 0 0 10px rgba(255, 238, 0, 0.3) inset;*/
+}
+/* 内层轨道，如果设置了会覆盖::-webkit-scrollbar-track的样式 */
+::-webkit-scrollbar-track-piece {
+  background: #F6F6F6;
+  border-radius: 5px;
+  /*box-shadow: 0 0 10px rgba(0, 255, 221, 0.5) inset;*/
+}
+/*滚动条拖动的部分*/
+::-webkit-scrollbar-thumb {
+  background: #DFE3E4;
+  border-radius: 10px;
+  /*box-shadow: 0 0 10px rgba(251, 255, 0, 0.6) inset;*/
+}
+/*定义右下角汇合处的样式*/
+::-webkit-scrollbar-corner {
+  background: #ffffff;
+}
+/*去除chrome输入框默认背景色*/
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  /*-webkit-text-fill-color: rgba(255,255,255,0)!important;*/
+}
