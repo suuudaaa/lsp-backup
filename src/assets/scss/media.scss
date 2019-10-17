@@ -1,0 +1,25 @@
+@media (max-width: 1440px) {
+  $container-width: 1320px;
+  $container-padding: 24px;
+  $sidebar-width: 90px;
+  .container {
+    width: $container-width;
+    padding: $container-padding;
+  }
+  .sidebar-container {
+    flex: 0 0 $sidebar-width;
+  }
+}
+
+@media (min-width: 1440px) {
+  $container-width: 1320px;
+  $container-padding: 32px;
+  $sidebar-width: 120px;
+  .container {
+    width: $container-width;
+    padding: $container-padding;
+  }
+  .sidebar-container {
+    flex: 0 0 $sidebar-width;
+  }
+}

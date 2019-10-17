@@ -1,0 +1,53 @@
+{
+  "name": "org-chart",
+  "description": "",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "src/main.js",
+  "author": "jovi_zheng <364551330@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "test": "cross-env NODE_ENV=test webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "publish": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/org-chart/issues"
+  },
+  "homepage": "https://hukaibaihu.github.io/org-chart/",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.4",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 versions",
+    "not ie <= 8",
+    "Android >= 5.0",
+    "iOS > 8.0"
+  ],
+  "__npminstall_done": "Thu Aug 22 2019 16:49:53 GMT+0800 (GMT+08:00)",
+  "_from": "org-chart@1.0.0",
+  "_resolved": "https://registry.npm.taobao.org/org-chart/download/org-chart-1.0.0.tgz"
+}

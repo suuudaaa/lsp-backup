@@ -1,0 +1,134 @@
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(238, 241, 246, 1) inset !important;
+}
+.container {
+  .el-form-item {
+    margin-bottom: 0px;
+    .el-input {
+      width: 300px;
+      .el-input__inner {
+        border: 0px;
+        height: 36px;
+        line-height: 36px;
+        background: rgba(238, 241, 246, 1);
+      }
+    }
+
+    /*diyLabel begin*/
+    .diyLabel {
+      display: inline-block;
+      width: 66px;
+    }
+    /*diyLabel begin*/
+    /*button begin*/
+    .formBtn {
+      width: 142px;
+    }
+    .cancelBtn {
+      color: #12bd7b;
+      border: 1px solid #12bd7b;
+    }
+    /*button end*/
+    /*match begin*/
+    .matchBtn {
+      cursor: pointer;
+      color: #12bd7b;
+    }
+    .matchBtn2 {
+      display: inline-block;
+      cursor: pointer;
+      color: #12bd7b;
+      margin-right: 25px;
+    }
+    /*match end*/
+
+    /*sonBtn begin*/
+    .delSonBtn {
+      cursor: pointer;
+      display: inline-block;
+      color: #586777;
+      i {
+        margin-left: 24px;
+        margin-right: 36px;
+      }
+    }
+    .addSonBtn {
+      cursor: pointer;
+      font-size: 24px;
+      color: #12bd7b;
+    }
+    /*sonBtn end*/
+    /*level begin*/
+    .levelContainer {
+      .level {
+        padding: 0px 12px 0px 12px;
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        background: #eef1f6;
+        border-radius: 4px;
+        color: #2b3d51;
+        border: 0;
+      }
+      .thisLevel {
+        font-weight: bold;
+      }
+    }
+    /*level end*/
+  }
+  /*diyFormItem begin*/
+  .diyFormItem {
+    .el-form-item__content {
+      line-height: 24px;
+    }
+  }
+  /*diyFormItem end*/
+  /*line begin*/
+  .marginTop24 {
+    margin-top: 24px;
+  }
+  .marginTop40 {
+    margin-top: 40px;
+  }
+  .marginTop60 {
+    margin-top: 60px;
+  }
+  .marginBottom12 {
+    margin-bottom: 12px;
+  }
+  .marginBottom15 {
+    margin-bottom: 15px;
+  }
+  .marginBottom18 {
+    margin-bottom: 18px;
+  }
+  .marginBottom24 {
+    margin-bottom: 24px;
+  }
+  .marginBottom40 {
+    margin-bottom: 40px;
+  }
+  .marginBottom60 {
+    margin-bottom: 60px;
+  }
+
+  .marginLeft70 {
+    margin-left: 70px;
+  }
+  /*line end*/
+  /*diyLabel begin*/
+  .diyLabelContainer {
+    display: inline-block;
+    width: 66px;
+    height: 40px;
+    line-height: 40px;
+  }
+  /*diyLabel end*/
+  /*diyTitle begin*/
+  .diyTitle {
+    font-weight: bold;
+    color: #2b3d51;
+    font-size: 16px;
+  }
+  /*diyTitle end*/
+}

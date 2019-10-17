@@ -1,0 +1,19 @@
+.oneLevelContainer {
+  .header {
+    position: relative;
+    padding: 16px 0px 0px 22px;
+    background: #fff;
+    border-radius: 4px 4px 0px 0px;
+    .addBtn {
+      position: relative;
+      float: right;
+      margin-right: 18px;
+      z-index: 1;
+      cursor: pointer;
+      height: 36px;
+    }
+    .el-button {
+      padding: 0px;
+    }
+  }
+}

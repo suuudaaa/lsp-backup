@@ -1,0 +1,36 @@
+.tableContainer {
+  margin: 0px 0px 24px 0px;
+  .editBtn {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: #12bd7b;
+    padding-left: 18px;
+    i {
+      position: absolute;
+      font-size: 14px;
+      top: 0px;
+      left: 0px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .deleteBtn {
+    margin-left: 14px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: #12bd7b;
+    padding-left: 18px;
+    i {
+      position: absolute;
+      font-size: 14px;
+      top: 0px;
+      left: 0px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
