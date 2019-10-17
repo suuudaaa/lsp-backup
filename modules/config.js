@@ -25,11 +25,6 @@ Vue.prototype.$echarts = echarts
 
 //filters
 
-// mock数据
-
-import  Mock from '../mock/index'
-Mock.init()
-
 //全局自定义指令
 
 import './directive'
